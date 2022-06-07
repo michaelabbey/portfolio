@@ -1,0 +1,279 @@
+:root{
+    --yellow: hsl(59, 76%, 71%);
+    --deepyellow:hsl(59, 76%, 37%);
+    --facebook:#1877F2;
+    --whatsapp:#25D366;
+    --Linkedin:#1877F2;
+    --youtube:#CD201F;
+    --twitter:#1DA1F2;
+    --instagram:#E4405F;
+    --Quora:#B92B27;
+    --Snapchat:#FFFC00;
+    --black:#131418;
+    --white:#fff;
+    --grey:#696969;
+    --wine:#D9D3C8;
+    --backgroundcolor:#1B1464;
+    --brown:#6F1E51;
+    --lightbrown:#833471;
+}
+@media (max-width:1200px){
+    html{
+        font-size: 70%;
+    }
+    #get-quote a{
+        display: none;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--brown);
+        transition: ease 1s;
+        padding: 10px;
+    }
+    .navbar-toggler i{
+        font-size: 2rem;
+        color: var(--brown);
+    }
+    .active::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+    }
+    .nav-link:hover::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+        transition:ease 1s;
+    }
+    .hero-btn{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #my-work-btn{
+        /* display: inline-block; */
+    }
+    #about-me-body{
+        font-size: 15px;
+    }
+    .portfolios-wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+        gap: 2rem;
+    }
+    .socials{
+        display: none;
+    }
+    .service-boxes .box p{
+        font-size: 15px;
+    }
+    #service-readmore-btn a{
+        font-size: 18px;
+    }
+    #email-links li a{
+        font-size: 16px;
+    }
+    #box1 ul li{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:991px){
+    html{
+        font-size: 70%;
+    }
+    #get-quote a{
+        display: none;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--brown);
+        transition: ease 1s;
+        padding: 10px;
+    }
+    .navbar-toggler i{
+        font-size: 2rem;
+        color: var(--brown);
+    }
+    .active::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+    }
+    .nav-link:hover::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+        transition:ease 1s;
+    }
+    .hero-btn{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #my-work-btn{
+        /* display: inline-block; */
+    }
+    #about-me-body{
+        font-size: 15px;
+    }
+    .portfolios-wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+        gap: 2rem;
+    }
+    .socials{
+        display: none;
+    }
+    .service-boxes .box p{
+        font-size: 15px;
+    }
+    #service-readmore-btn a{
+        font-size: 18px;
+    }
+    #email-links li a{
+        font-size: 16px;
+    }
+    #box1 ul li{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:450px){
+    html{
+        font-size: 70%;
+    }
+    #get-quote a{
+        display: none;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--brown);
+        transition: ease 1s;
+        padding: 10px;
+    }
+    .navbar-toggler i{
+        font-size: 2rem;
+        color: var(--brown);
+    }
+    .active::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+    }
+    .nav-link:hover::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+        transition:ease 1s;
+    }
+    .hero-btn{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #my-work-btn{
+        /* display: inline-block; */
+    }
+    #about-me-body{
+        font-size: 15px;
+    }
+
+    .socials{
+        display: none;
+    }
+    .service-boxes .box p{
+        font-size: 15px;
+    }
+    #service-readmore-btn a{
+        font-size: 18px;
+    }
+    #email-links li a{
+        font-size: 16px;
+    }
+    #box1 ul li{
+        font-size: 16px;
+    }
+    .footer{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media (max-width:320px){
+    html{
+        font-size: 70%;
+    }
+    #get-quote a{
+        display: none;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--brown);
+        transition: ease 1s;
+        padding: 10px;
+    }
+    .navbar-toggler i{
+        font-size: 2rem;
+        color: var(--brown);
+    }
+    .active::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+    }
+    .nav-link:hover::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: none;
+        background-color: #131418;
+        transition:ease 1s;
+    }
+    #hero-title h1{
+        font-size: 19px;
+    }
+    .hero-btn{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #my-work-btn{
+        /* display: none; */
+    }
+    #about-me-body{
+        font-size: 13px;
+    }
+    .socials{
+        display: none;
+    }
+
+    .service-boxes .box p{
+        font-size: 15px;
+    }
+    #email-links li a{
+        font-size: 16px;
+    }
+    #box1 ul li{
+        font-size: 16px;
+    }
+
+
+}
